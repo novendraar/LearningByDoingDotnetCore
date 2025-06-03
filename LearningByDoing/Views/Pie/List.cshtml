@@ -1,0 +1,25 @@
+﻿@using LearningByDoing.ViewModels
+@model ListViewModels
+
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>@Model.title</title>
+    </head>
+    <body>
+        <h2>List Pie</h2>
+    @foreach(var v in Model.pies)
+    {
+        <div>
+            <hr />
+            <img src="@v.ImageThumbnail">
+            <p>Name: @v.Name</p>
+            <p>Price: @v.Price RMB</p>
+            <p>Short Desc: @v.ShortDescription</p>
+            <p>Long Desc: @v.LongDescription</p>
+            <p>InStock: @(v.InStock ? "Ada" : "Kosong")</p>
+        </div>
+    }
+    <hr />
+    </body>
+    </html>

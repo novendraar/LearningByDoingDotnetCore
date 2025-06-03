@@ -1,6 +1,12 @@
+using LearningByDoing.Models.IRepository;
+using LearningByDoing.Models.MockData;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<ICategoryRepository, MockCategoryRepository>();
+builder.Services.AddScoped<IPieRepository, MockPieRepository>();
 
 var app = builder.Build();
 
@@ -13,6 +19,6 @@ if (app.Environment.IsDevelopment())
 
 app.MapDefaultControllerRoute();
 
-app.MapGet("/", () => "Hello World!");
+//app.MapGet("/", () => "Hello World!");
 
 app.Run();

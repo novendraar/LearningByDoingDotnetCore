@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "zbbEvm+6gxX/S7gtfyIN0rSIgpl7lqqSPqB13az2tTJZ5NJJbJ31bA7H0sFYcir6ohVri5qZPeVGqXYV1/nl0Q==",
+  "dgSpecHash": "Qj8O2BZmmSXjPcI+9/x2J4DrDQuwQyMVHscbExjL9z8w20C5E0oZi+i57giVCwIXN0jQ/Jfcoo3o/ULy7Zj3Jw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ms.novendra\\OneDrive - PT. Code Development Indonesia\\MyRepo\\LearningByDoing\\Repo\\LearningByDoing\\LearningByDoing.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ms.novendra\\.nuget\\packages\\faker.net\\2.0.163\\faker.net.2.0.163.nupkg.sha512",
+    "C:\\Users\\ms.novendra\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ms.novendra\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
